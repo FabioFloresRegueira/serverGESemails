@@ -70,8 +70,8 @@ cron.schedule('59 15 * * *', () => {
         const mailOptions = {
             from: 'erp.deployment@gmail.com',
             to: 'fabio.regueira@portonovosa.com',
-            subject: 'GES-Gestão Eletônica de Serviços',
-            text: `WebGES - Gestão Eletronica de Serviços: ${JSON.stringify(result)}`,
+            subject: 'WEBGES',
+            text: `Gestão Eletrônica de Serviços: ${JSON.stringify(result)}`,
             //html: `<b>Aqui está o resultado da sua consulta:</b><pre>${JSON.stringify(result, null, 2)}</pre>`
             html: `<b><h1>WebGES - Gestão Eletronica de Serviços:</h1></b>${tableHTML}`
         
