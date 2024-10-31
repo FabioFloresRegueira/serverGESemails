@@ -15,7 +15,8 @@
     "express": "^4.21.1",
     "mysql": "^2.18.1",
     "node-cron": "^3.0.3",
-    "nodemailer": "^6.9.15"
+    "nodemailer": "^6.9.15",
+    "taskgmail": "file:"
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
